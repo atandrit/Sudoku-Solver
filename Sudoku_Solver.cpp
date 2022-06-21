@@ -83,6 +83,7 @@ int main()
             cin >> grid[i][j];
         cout << '\n';
     }
+    system("cls");
     cout << "Sudoku Entered:\n\n";
     printGrid(grid);
     cout << "\nSolution:\n\n";
