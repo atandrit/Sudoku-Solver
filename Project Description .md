@@ -1,7 +1,7 @@
 # Sudoku-Solver
 This is a C++ program to solve a standard 9x9 sudoku entered by the user. Sudoku is a logic-based puzzle game that requires you to combine numbers to come completely fill the board. The objective is for you to fill a 9x9 grid so that each column, each row, and each of the nine 3x3 sub grids that compose the grid contain all the digits from 1–9.
 
-# Design Techniques Used: 
+# Design Technique Used: 
 Backtracking
 
 # Approach:
