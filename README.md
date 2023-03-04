@@ -1,25 +1,32 @@
 
-# Sudoku-Solver
+# Sudoku Solver
 
-This is a C++ program to solve a standard 9x9 sudoku entered by the user. Sudoku is a logic-based puzzle game that requires you to combine numbers to come completely fill the board. The objective is for you to fill a 9x9 grid so that each column, each row, and each of the nine 3x3 sub grids that compose the grid contain all the digits from 1–9.
+This project aims to create a simple C++ program that solves a 9x9 Sudoku puzzle using the backtracking algorithm. The backtracking algorithm is a recursive algorithm that traverses the puzzle and solves it by trying out various solutions and backtracking when it reaches a dead-end.
 
+The program takes a 9x9 Sudoku puzzle as input and outputs the solved puzzle. The puzzle must have a unique solution for the program to work.
 
-## Design Technique Used:
-
-Backtracking
-
-
-## Approach:
-
-Before assigning a number, checked whether it is safe to assign. Checked that the same number is not present in the current row, current column and current 3X3 sub grid. After checking for safety, assigned the number, and recursively checked whether this assignment leads to a solution or not. If the assignment didn’t lead to a solution, then tried the next number for the current empty cell. And if none of the number (1 to 9) led to a solution, returned false and printed no solution exists.
+## Documentation
 
 
-## Output:
+The backtracking algorithm is a general algorithm for finding all (or some) solutions to a computational problem that incrementally builds candidates to the solutions and abandons a candidate ("backtracks") as soon as it determines that the candidate cannot possibly be completed to a valid solution.
 
-![Output Screenshot](https://user-images.githubusercontent.com/91213354/174858109-419aa357-39b6-4076-af9c-35a46d760002.png)
+To use the program, follow these steps:
 
+1. Create a 9x9 Sudoku puzzle in the form of a 2D array, where empty cells are represented by 0.
+2. Import the C++ program into your code.
+3. Call the "solveSudoku" function with the puzzle as input.
+4. The program will output the solved Sudoku puzzle.
+## Program Execution
 
-## Authors
+User Input
 
-- [@atandrit](https://www.github.com/atandrit)
+![User Input](https://user-images.githubusercontent.com/91213354/222930920-7aae52ef-d970-42bc-a377-a59326acfc42.png)
+
+Output
+
+![Output](https://user-images.githubusercontent.com/91213354/222930925-c55679f5-37e3-497c-9ac5-eae2a5abfbc7.png)
+
+## Author
+
+- [@atandrit](https://github.com/atandrit)
 
